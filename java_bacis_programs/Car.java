@@ -9,7 +9,7 @@ System.out.print("\nEnter your Car Name:");
 car=s.nextLine();
 System.out.print("\nEnter your Car Price Name:");
 Price=s.nextInt();
-
+s.close();
 }
 void display(){
  System.out.print("Car:"+car);
@@ -22,6 +22,6 @@ c.input();
 c.display();
 
 c.display(); 
-
 }
+
 }

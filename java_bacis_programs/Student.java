@@ -10,7 +10,7 @@ System.out.println("Enter Name Age Phone:");
 name=S.next();
 age=S.nextInt();
 phone=S.nextInt();
-
+S.close();
 }
 void display(){
 System.out.println("Name:"+name);
