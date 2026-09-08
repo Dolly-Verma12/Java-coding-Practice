@@ -8,6 +8,6 @@ public static void main(String[] args){
   Count c=new Count();
  Count c1=new Count();
 System.out.print(count);
- 
+
 }
 }
