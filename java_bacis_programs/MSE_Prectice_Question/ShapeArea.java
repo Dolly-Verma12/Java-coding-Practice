@@ -30,7 +30,6 @@ public class ShapeArea {
         ar.area(ln, wid);
     }else {
         System.out.println("invalid choice!!");
-        return;
     }
     s.close();
   

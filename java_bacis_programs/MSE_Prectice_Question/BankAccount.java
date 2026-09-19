@@ -11,12 +11,10 @@ public class BankAccount {
     }
     void withdraw(double Ammount){
         if(balance<Ammount){
-            check=true;
-          
+            check=true;        
         }else{
            balance=balance-Ammount;
-        }
-        
+        }        
     }
     void getbalance()
 {
@@ -27,10 +25,8 @@ public class BankAccount {
 }    public static void main(String[]args){
         Scanner s= new Scanner(System.in);
           double in=s.nextDouble();
-    BankAccount Ac=new BankAccount(in);
-       
+    BankAccount Ac=new BankAccount(in);  
         int n=s.nextInt();
-      
         for(int i=0;i<n;i++){
             char ch=s.next().charAt(0);
             if(ch=='D'){
@@ -40,8 +36,11 @@ public class BankAccount {
             else if(ch=='W'){
                   double w=s.nextDouble();
              Ac.withdraw(w); 
+            }else{
+                System.out.println("invailid iutput");return;
             }
         }
+        
         Ac.getbalance();
         s.close();
     }
