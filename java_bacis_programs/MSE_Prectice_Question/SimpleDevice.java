@@ -18,5 +18,6 @@ public class SimpleDevice {
     Scanner s=new Scanner(System.in);
     SmartBulb b=new SmartBulb("tl", 10);
     b.printCon();
+    s.close();
     }
 }
