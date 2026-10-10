@@ -5,13 +5,13 @@ public class Program{
             Arr[6]=30/0;
 
         }
-       catch(Exception e){
-            System.out.println(e);
-        }
+   
         catch(ArrayIndexOutOfBoundsException a){
             System.out.println(a);
         } catch(ArithmeticException Air){
             System.out.println(Air);
-        } 
+        }     catch(Exception e){
+            System.out.println(e);
+        }
     }
 }
