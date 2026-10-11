@@ -7,7 +7,7 @@ public class TotalDiscount {
        int st=-1;
        int st1=-1;
        int len=prices.length;
-       int count=0;
+    //    int count=0;
        for(int i=0;i<len;i++){
         int max=prices[0];
         int max1=discounts[0]; 
