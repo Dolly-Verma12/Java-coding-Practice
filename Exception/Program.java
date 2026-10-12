@@ -3,14 +3,14 @@ public class Program{
         try{
             int []Arr =new int[5];
             Arr[6]=30/0;
-
+     System.out.println("handle ");
         }
-   
-        catch(ArrayIndexOutOfBoundsException a){
-            System.out.println(a);
-        } catch(ArithmeticException Air){
-            System.out.println(Air);
-        }     catch(Exception e){
+        // catch(ArrayIndexOutOfBoundsException a){
+        //     System.out.println(a);
+        // } catch(ArithmeticException Air){
+        //     System.out.println(Air);
+        // }   
+          catch(Exception e){
             System.out.println(e);
         }
     }
