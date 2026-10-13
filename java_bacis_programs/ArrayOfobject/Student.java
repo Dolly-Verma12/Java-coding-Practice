@@ -9,9 +9,7 @@ void display(){
     System.out.println("Name: "+name);
     System.out.println("Age: "+age);
 }
-
-
 class Student {
     Data[] d=new Data[5];
-
+}
 }
