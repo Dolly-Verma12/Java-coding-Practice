@@ -5,8 +5,13 @@ public class CreateFile{
     public static void main(String[] args){
         try{
             File f=new File("New.txt");
+            File f2= new File("tell.txt");
+            if(f2.createNewFile()){
+                System.out.println("File: "+f2.getName());
+            }
         if(f.createNewFile()){
             System.out.println("File: "+f.getName());
+         
         }else{
             System.out.println("Aready exist!!");
         }
