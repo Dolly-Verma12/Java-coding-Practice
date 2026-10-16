@@ -23,25 +23,26 @@ public class BankAccount {
     }
     System.out.println("total balance: "+balance);
 }    public static void main(String[]args){
-        Scanner s= new Scanner(System.in);
-          double in=s.nextDouble();
+        Scanner sc= new Scanner(System.in);
+          double in=sc.nextDouble();
     BankAccount Ac=new BankAccount(in);  
-        int n=s.nextInt();
+        int n=sc.nextInt();
         for(int i=0;i<n;i++){
-            char ch=s.next().charAt(0);
+            char ch=sc.next().charAt(0);
             if(ch=='D'){
-              double d=s.nextDouble();
+              double d=sc.nextDouble();
                Ac.deposite(d);
             }
             else if(ch=='W'){
-                  double w=s.nextDouble();
+                  double w=sc.nextDouble();
              Ac.withdraw(w); 
             }else{
                 System.out.println("invailid iutput");return;
             }
         }
-        
+       
         Ac.getbalance();
-        s.close();
+          sc.close();  
+     
     }
 }

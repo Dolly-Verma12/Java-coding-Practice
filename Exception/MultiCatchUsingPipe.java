@@ -1,4 +1,4 @@
-public class MultuCatchUsingPipe {
+public class MultiCatchUsingPipe {
     public static void main(String[] args){
     try{
         int a=10;

@@ -9,5 +9,6 @@ public class Leapyear {
         }else{
             System.out.println("not");
         } 
+        s.close();
     }
 }

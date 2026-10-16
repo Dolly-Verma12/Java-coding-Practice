@@ -45,5 +45,6 @@ class Bank {
         } 
   
         System.out.println("Final Balance: " + account.getBalance()); 
+        sc.close();
     } 
 } 

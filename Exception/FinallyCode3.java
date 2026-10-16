@@ -1,5 +1,4 @@
 public class FinallyCode3 {
-    
     public static void main(String[] args){
     try{
      int num=25/0;
