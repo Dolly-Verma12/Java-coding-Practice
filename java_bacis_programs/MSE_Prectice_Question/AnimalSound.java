@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 abstract class Animal{
     abstract void makeSound();
 }
