@@ -1,6 +1,6 @@
 public class SingleNumber {
     public static void main(String[] args){
-        int num[]={4,2,1,1,4};
+        int num[]={4,2,1,1,4,2,9};
         for(int i=0;i<num.length;i++){
             boolean ch=false;
             int N=num[i];
